@@ -1,0 +1,122 @@
+body{
+    margin:  0;
+}
+.top-bar{
+    background-color:#a4c639;
+    color:white;
+    font-size:14px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    height: 30px;
+    align-items: center;
+}
+.social-icons img{
+    width: 16px;
+    border-left: 1px solid white;
+}
+.social-icons img:last-child{
+    border-right: 1px solid white;
+}
+.top-bar-left{
+    display:flex;
+}   
+.top-bar-left p {
+    margin:0;
+    border-left: 1px solid white;
+    align-items: center;
+}
+.top-bar-left p:last-child{
+    border-right: 1px solid white;
+}
+.about-section{
+    background: url('slide_01.jpg') center/cover no-repeat;
+    padding-left:  100px;
+    padding-right: 100px;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    margin: 0;
+    height: 60vh;
+} 
+.social .social-icons{
+    display:flex ;
+}
+.nav-bar h2{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+}
+.top-bar-left p, .social-icons img{
+    padding: 7px;
+}
+.nav-bar{
+    color: white;
+    display: flex;
+    justify-content:space-between;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.nav-links .home{
+    color: #a4c639;
+    border-bottom: 2px solid #a4c639;
+}
+.about-info h3{
+    color: #a4c639;
+}
+.about-info h1{
+    color: white;
+}
+.about-info{
+    color: white;
+        padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.about-info{
+    font-size: small;
+    line-height: 30px;
+    padding-left: 50px;
+}
+.about-info a{
+    text-decoration:none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #a4c639;
+    border-radius: 20px;
+
+}
+.call-request{
+    background-color: #a4c639;
+    color: white;
+    display:flex;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+.call-request a{
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+
+
+
